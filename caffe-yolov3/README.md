@@ -1,4 +1,5 @@
 # caffe-yolov3
+
 # Paltform
 Have tested on Ubuntu16.04LTS with Jetson-TX2 and Ubuntu16.04LTS with gtx1060;
 
@@ -12,7 +13,8 @@ cd caffe-yolov3
 mkdir build
 
 cd build
-
+# make 之前，要将 src/detector.h 最下面的 num_classes 改为自己的，我自己做的时候，
+# 在这里被坑了很久，yolo_layer中的不用管
 cmake ..
 
 make -j6
