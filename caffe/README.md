@@ -1,5 +1,7 @@
 # Caffe
 
+此处 Makefile.config 我基本都改了，但是 PYTHON_INCLUDE 的路径一定要改成自己的
+
 [![Build Status](https://travis-ci.org/BVLC/caffe.svg?branch=master)](https://travis-ci.org/BVLC/caffe)
 [![License](https://img.shields.io/badge/license-BSD-blue.svg)](LICENSE)
 
