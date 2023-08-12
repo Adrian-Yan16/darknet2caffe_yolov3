@@ -61,6 +61,8 @@ PYTHON_INCLUDE := $(ANACONDA_HOME)/include \
                 $(ANACONDA_HOME)/include/python3.6m \
                 $(ANACONDA_HOME)/lib/python3.6/site-packages/numpy/core/include
 ```
+还有另一种情况会报错 proto/ 路径下没有 caffe.pb.h 的问题，查找一下自己路径下该文件的位置，然后 mv 到报错
+路径下即可
 
 ## CV_LOAD_IMAGE_COLOR和CV_BGR2HSV和CV_CAP_PROP_FRAME_WIDTH
 
