@@ -1,6 +1,6 @@
 # Requirements
   
-  Python2.7
+  Python3.9
 
   Caffe
 
